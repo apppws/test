@@ -1,3 +1,3 @@
 <?php 
-    exec('git pull 2>&1',$out);
+    exec('git pull',$out);
     var_dump($out);
